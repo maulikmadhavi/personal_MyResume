@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.6)  11 SEP 2021 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.6)  16 FEB 2022 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.tex
-(/mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.tex
+**/home/maulik/Documents/Tool/MyResume/Maulik_resume.tex
+(/home/maulik/Documents/Tool/MyResume/Maulik_resume.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -195,7 +195,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
-) (/mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.aux)
+) (/home/maulik/Documents/Tool/MyResume/Maulik_resume.aux)
 \openout1 = `Maulik_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -287,7 +287,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
- (/mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.out) (/mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.out)
+ (/home/maulik/Documents/Tool/MyResume/Maulik_resume.out) (/home/maulik/Documents/Tool/MyResume/Maulik_resume.out)
 \@outlinefile=\write3
 \openout3 = `Maulik_resume.out'.
 
@@ -315,65 +315,65 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 31.
 
-Overfull \hbox (20.0031pt too wide) in paragraph at lines 30--62
+Overfull \hbox (20.0031pt too wide) in paragraph at lines 30--61
 [] 
  []
 
 
-Overfull \hbox (20.0031pt too wide) in paragraph at lines 78--86
+Overfull \hbox (20.0031pt too wide) in paragraph at lines 77--85
 []
  []
 
 
-Overfull \hbox (20.0031pt too wide) in paragraph at lines 88--96
+Overfull \hbox (20.0031pt too wide) in paragraph at lines 87--95
 [] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 210.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
 
-Overfull \hbox (20.0031pt too wide) in paragraph at lines 208--230
+Overfull \hbox (20.0031pt too wide) in paragraph at lines 207--229
 []
  []
 
 [4] [5] [6]
-Overfull \hbox (20.0031pt too wide) in paragraph at lines 291--301
+Overfull \hbox (20.0031pt too wide) in paragraph at lines 290--300
 [] 
  []
 
 
-Overfull \hbox (20.0031pt too wide) in paragraph at lines 303--313
+Overfull \hbox (20.0031pt too wide) in paragraph at lines 302--311
 [] 
  []
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
- (/mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
+ (/home/maulik/Documents/Tool/MyResume/Maulik_resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
 Package rerunfilecheck Info: File `Maulik_resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
  ) 
 Here is how much of TeX's memory you used:
  6707 strings out of 492982
- 98294 string characters out of 6134897
- 295736 words of memory out of 5000000
+ 98255 string characters out of 6134897
+ 295709 words of memory out of 5000000
  10131 multiletter control sequences out of 15000+600000
  22669 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,9n,35p,542b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,9n,35p,544b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /mnt/data/Job_Applications/RESUME/Latex/Maulik_resume.pdf (8 pages, 104434 bytes).
+Output written on /home/maulik/Documents/Tool/MyResume/Maulik_resume.pdf (8 pages, 104459 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  130 compressed objects within 2 object streams
