@@ -1,0 +1,138 @@
+cv:
+  name: Maulik C. Madhavi
+  location: Singapore
+  email: maulikmadhavi@gmail.com
+  phone: tel:+65-85443713
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: LinkedIn
+      username: https://www.linkedin.com/in/maulik-madhavi-25743b82/
+    - network: GitHub
+      username: https://github.com/maulikmadhavi
+  sections:
+    experience:
+      - company: NCS PTE LTD, Singapore
+        position: Snr Product Engineer (Video Analytics Researcher)
+        start_date: 2021-04
+        highlights:
+          - Innovate the video analytics algorithm of person/pedestrian attribute, face attributes
+          - Developed the video analytics algorithm for recognition, detection and inference for generic computer vision training. To support  backend engine for inhouse KAI CC product.
+          - Explore the generative AI capabilities to automate video analytics using cutting edge large language model and vision langauge model technologies.
+      - company: National University of Sinagpore (NUS), Singapore
+        position: Research Fellow
+        start_date: 2017-12
+        end_date: 2021-04
+        highlights:
+          -  Support research and project activities. Involved in autonomous bus chatbot project, healthcare ASR system and SCDF automatic form filling system using intent and entity extraction.
+          -  Mentor and co-supervise the final year undergrad students for their projects.
+    education:
+      - institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar. 
+        degree: Ph.D. 
+        area: Information and Communication Technology (ICT)
+        start_date: 2011-07
+        end_date: 2017-11
+        highlights: 
+        - Thesis title - '[Design of QbE-STD System - audio representation and matching perspective](http://drsr.daiict.ac.in/jspui/handle/123456789/649)'
+      - institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar. 
+        degree: Master of Technology (M.Tech)
+        area: Information and Communication Technology (ICT)
+        start_date: 2009-07
+        end_date: 2011-06
+        highlights: 
+        - Communication Systems specialization
+        - CPI -  8.26/10
+        - Thesis title - '[Person recognition from their hum](http://drsr.daiict.ac.in/jspui/handle/123456789/338)'
+      - institution: V.V.P. Engineering College, Saurashtra University, Rajkot
+        degree: Bachelor of Engineering (BE)
+        start_date: 2005-07
+        area: Electronics and Communication (EC)
+        end_date: 2009-06
+        highlights: 
+        - Percentage (69.73\%)(aggregate)
+    publications:
+      - title: Vocal Tract Length Normalization using a Gaussian mixture model framework for query-by-example spoken term detection
+        authors:
+        - '*** M. C. Madhavi***'
+        - H. A. Patil
+        date: November 2019
+        doi: 10.1016/j.csl.2019.03.005
+        journal: Computer, Speech and Language, Elsevier
+      - title: Design of mixture of GMMs for query-by-example spoken term detection
+        authors:
+        - '*** M. C. Madhavi***'
+        - H. A. Patil
+        doi: 10.1016/j.csl.2018.04.006
+        journal: Computer, Speech and Language, Elsevier
+        date: November 2018
+      - title: Combining evidences from magnitude and phase information using VTEO for person recognition using humming
+        authors:
+        - H. A. Patil
+        - '*** M. C. Madhavi***'
+        journal: special issue of recent advances in speaker and language recognition and characterization Computer Speech and Language, Elsevier
+        doi: 10.1016/j.csl.2018.04.006
+        date: November 2018
+      - title: Partial matching and search space reduction for QbE-STD
+        authors:
+        - '*** M. C. Madhavi***'
+        - H. A. Patil
+        doi: 10.1016/j.csl.2018.04.006
+        journal: Computer, Speech and Language, Elsevier
+        date: September 2017
+      - title: "Static and dynamic information derived from source and system features for person recognition from humming"
+        authors:
+          - H. A. Patil
+          - '***M. C. Madhavi***'
+          - K. K. Parhi
+        journal: Int. Journal of Speech Technology, Springer
+    additional_experience_and_awards:
+      - label: Instructor (2003-2005)
+        details: Taught 2 full-credit computer science courses
+      - label: Third Prize, Senior Design Project
+        details: Awarded 3rd prize for a synchronized calendar
+          project out of 100 entries
+    technologies:
+      - label: Languages
+        details: C++, Python
+      - label: Tools
+        details: Bash, Git, Docker, Latex 
+      - label: Research Interests
+        details: Audio processing, Computer Vision, Application of generative AI in computer vision
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
