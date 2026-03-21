@@ -1,4 +1,16 @@
+# LaTeX build artifacts
 Maulik_resume.aux
 Maulik_resume.log
-__pycache__/ats_checker.cpython-313.pyc
-Maulik_resume.aux
+Maulik_resume.pdf
+Maulik_resume.fls
+Maulik_resume.fdb_latexmk
+Maulik_resume.synctex.gz
+Maulik_resume.out
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated reports
+ats_report.txt
