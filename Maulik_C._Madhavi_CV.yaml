@@ -1,8 +1,8 @@
 cv:
-  name: Maulik C. Madhavi
+  name: Maulik Madhavi
   location: Singapore
   email: maulikmadhavi@gmail.com
-  phone: tel:+65-85443713
+  phone: tel:+65-8544-3713
   # website: https://yourwebsite.com/
   social_networks:
     - network: LinkedIn
@@ -11,128 +11,466 @@ cv:
       username: https://github.com/maulikmadhavi
   sections:
     experience:
-      - company: NCS PTE LTD, Singapore
-        position: Snr Product Engineer (Video Analytics Researcher)
+      - company: NCS Pte Ltd, Singapore
+        position: Lead Product Engineer
+        previous_position: Video Analytics Researcher
         start_date: 2021-04
         highlights:
-          - Innovate the video analytics algorithm of person/pedestrian attribute, face attributes
-          - Developed the video analytics algorithm for recognition, detection and inference for generic computer vision training. To support  backend engine for inhouse KAI CC product.
-          - Explore the generative AI capabilities to automate video analytics using cutting edge large language model and vision langauge model technologies.
-      - company: National University of Sinagpore (NUS), Singapore
+          - "Contributed to two major platforms under KAI CoCreate: KAI Create (Low-code video analytics training tool) and [KAI SnS](https://www.ncs.co/en-sg/knowledge-centre/articles/ncs-kai-video-search-and-summarisation-platform/) (Video search and summarization platform: ) through computer vision and backend optimization"
+          - Designed and implemented face indexing system supporting million-scale face search capabilities, along with person and vehicle detection models with attribute recognition
+          - Built prompt studio platform enabling users to efficiently search, summarize, and analyze video content for downstream applications, collaborating across cross-functional teams
+      - company: National University of Singapore (NUS), Singapore
         position: Research Fellow
         start_date: 2017-12
         end_date: 2021-04
         highlights:
-          -  Support research and project activities. Involved in autonomous bus chatbot project, healthcare ASR system and SCDF automatic form filling system using intent and entity extraction.
-          -  Mentor and co-supervise the final year undergrad students for their projects.
+              - Designed and deployed backend dialogue system for autonomous vehicles supporting multi-modal conversations (FAQ-based, intention-driven, and open-domain) leveraging Google Search API and Wikipedia
+              - Developed text-dependent speaker verification system optimized for mobile deployment
+              - Enhanced Automatic Speech Recognition (ASR) system for healthcare applications by adapting language models to Singaporean English, achieving significant Word Error Rate (WER) improvements
+              - Built automated form-filling system for SCDF call centers using NLU techniques to extract actionable information from ASR-generated transcripts
+              - Mentored and co-supervised undergraduate and graduate students on research projects
+      - company: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar
+        position: Project Personnel
+        start_date: 2012-04
+        end_date: 2014-06
+        highlights:
+          - "Prosodically Guided Phonetic Engine Development for Gujarati and Marathi languages (Advisor: Prof. Hemant Patil)"
+          - "Developed sophisticated phonetic engine capturing phonetic transcription (IPA), syllabification, and prosodic information (pitch and break marking) across multiple recording modes (read, spontaneous, lecture) from different dialectal regions"
+          - "Designed and implemented phonetic engine development workflow using Hidden Markov Models for phoneme recognition, spectral analysis for syllable segmentation, and source characteristic analysis for suprasegmental feature extraction and acoustic modeling"
+          - "Built audio search pipeline leveraging the phonetic engine architecture to enable spoken content retrieval and discovery applications for Indian language processing"
     education:
-      - institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar. 
-        degree: Ph.D. 
-        area: Information and Communication Technology (ICT)
+      - institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar
+        degree: Ph.D.
+        area: "Information and Communication Technology (ICT)"
         start_date: 2011-07
         end_date: 2017-11
-        highlights: 
-        - Thesis title - '[Design of QbE-STD System - audio representation and matching perspective](http://drsr.daiict.ac.in/jspui/handle/123456789/649)'
-      - institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar. 
-        degree: Master of Technology (M.Tech)
-        area: Information and Communication Technology (ICT)
+        highlights:
+          - "Ph.D. in Information and Communication Technology (ICT)"
+          - "CPI: 9.75/10"
+          - "Thesis: [Design of QbE-STD System : audio representation and matching perspective](https://ir.daiict.ac.in/server/api/core/bitstreams/7bdf3d9e-87e8-4823-9fdb-31e71cf60203/content)"
+      - institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar
+        degree: M.Tech
+        area: "Information and Communication Technology (ICT)"
         start_date: 2009-07
         end_date: 2011-06
-        highlights: 
-        - Communication Systems specialization
-        - CPI -  8.26/10
-        - Thesis title - '[Person recognition from their hum](http://drsr.daiict.ac.in/jspui/handle/123456789/338)'
-      - institution: V.V.P. Engineering College, Saurashtra University, Rajkot
-        degree: Bachelor of Engineering (BE)
+        highlights:
+          - "Master of Technology (M.Tech) in Information and Communication Technology (ICT)"
+          - "Communication Systems specialization"
+          - "CPI: 8.26/10"
+          - "Thesis: Person recognition from their hum"
+      - institution: "V.V.P. Engineering College, Saurashtra University, Rajkot"
+        degree: B.E.
+        area: "Electronics and Communication (EC)"
         start_date: 2005-07
-        area: Electronics and Communication (EC)
         end_date: 2009-06
-        highlights: 
-        - Percentage (69.73\%)(aggregate)
+        highlights:
+          - "Bachelor of Engineering (B.E.) in Electronics and Communication (EC)"
+          - "Percentage: 69.73% (aggregate)"
     publications:
+      # International Journals (sorted by year, newest first)
       - title: Vocal Tract Length Normalization using a Gaussian mixture model framework for query-by-example spoken term detection
         authors:
-        - '*** M. C. Madhavi***'
-        - H. A. Patil
-        date: November 2019
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Nov 2019"
         doi: 10.1016/j.csl.2019.03.005
-        journal: Computer, Speech and Language, Elsevier
+        journal: Computer, Speech and Language, Elsevier, vol. 58, pp. 175-202
       - title: Design of mixture of GMMs for query-by-example spoken term detection
         authors:
-        - '*** M. C. Madhavi***'
-        - H. A. Patil
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Nov 2018"
         doi: 10.1016/j.csl.2018.04.006
-        journal: Computer, Speech and Language, Elsevier
-        date: November 2018
+        journal: Computer, Speech and Language, Elsevier, vol. 52, pp. 41-55
       - title: Combining evidences from magnitude and phase information using VTEO for person recognition using humming
         authors:
-        - H. A. Patil
-        - '*** M. C. Madhavi***'
-        journal: special issue of recent advances in speaker and language recognition and characterization Computer Speech and Language, Elsevier
+          - H. A. Patil
+          - M. C. Madhavi
+        date: "Nov 2018"
         doi: 10.1016/j.csl.2018.04.006
-        date: November 2018
+        journal: Computer Speech and Language, Elsevier, vol. 52, pp. 225-256
       - title: Partial matching and search space reduction for QbE-STD
         authors:
-        - '*** M. C. Madhavi***'
-        - H. A. Patil
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Sept 2017"
         doi: 10.1016/j.csl.2018.04.006
-        journal: Computer, Speech and Language, Elsevier
-        date: September 2017
+        journal: Computer, Speech & Language, Elsevier, vol. 45, pp. 58-82
       - title: "Static and dynamic information derived from source and system features for person recognition from humming"
         authors:
           - H. A. Patil
-          - '***M. C. Madhavi***'
+          - M. C. Madhavi
           - K. K. Parhi
-        journal: Int. Journal of Speech Technology, Springer
-    additional_experience_and_awards:
-      - label: Instructor (2003-2005)
-        details: Taught 2 full-credit computer science courses
-      - label: Third Prize, Senior Design Project
-        details: Awarded 3rd prize for a synchronized calendar
-          project out of 100 entries
+        date: "Sept 2012"
+        doi: 10.1007/s10772-012-9161-5
+        journal: Int. Journal of Speech Technology, Springer, vol. 15, no. 3, pp. 393-406
+      # Book Chapters (sorted by year, newest first)
+      - title: Spoken Keyword Retrieval using Source and System Features
+        authors:
+          - M. C. Madhavi
+          - H. A. Patil
+          - N. Bhendawade
+        date: "Dec 2017"
+        doi: 10.1007/978-3-319-69900-4_42
+        journal: "PReMI, Lecture Notes in Computer Science (LNCS), pp. 333-341"
+      - title: "VTLN Using different warping functions for template matching"
+        authors:
+          - M. C. Madhavi
+          - S. Sharma
+          - H. A. Patil
+        date: "Mar 2016"
+        doi: 10.1007/978-3-319-30315-4_10
+        journal: "Machine Intelligence and Big Data in Industry, Springer International Publishing, pp. 111-121"
+      - title: "Vocal tract length normalization features for audio search"
+        authors:
+          - M. C. Madhavi
+          - S. Sharma
+          - H. A. Patil
+        date: "Sept 2015"
+        doi: 10.1007/978-3-319-24033-6_44
+        journal: "Int. Conf. Text, Speech, and Dialogue, TSD, pp. 387-395"
+      - title: "Combining evidences from temporal and spectral features for person recognition from humming"
+        authors:
+          - H. A. Patil
+          - M. C. Madhavi
+          - R. Jain
+          - A. Jain
+        date: "Feb 2012"
+        doi: 10.1007/978-3-642-27387-2_40
+        journal: "PerMIn, Lecture Notes in Computer Science (LNCS), vol. 7143, pp. 321-328, Springer-Verlag"
+      - title: "Speaker recognition using sparse representation via superimposed features"
+        authors:
+          - Y. Gaur
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Dec 2013"
+        doi: 10.1007/978-3-642-45062-4_19
+        journal: "PReMI, Lecture Notes in Computer Science (LNCS), vol. 8251, pp. 140-147, Springer-Verlag"
+      # International Conferences (sorted by year, newest first)
+      - title: "Exploring teacher-student learning approach for multi-lingual speech-to-intent classification"
+        authors:
+          - B. Sharma
+          - M. Madhavi
+          - X. Zhou
+          - H. Li
+        date: "Dec 2021"
+        doi: 10.1109/ASRU51503.2021.9688041
+        journal: "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU), pp. 419-426"
+      - title: "Knowledge Distillation from BERT Transformer to Speech Transformer for Intent Classification"
+        authors:
+          - Y. Jiang
+          - B. Sharma
+          - M. Madhavi
+          - H. Li
+        date: "Aug-Sept 2021"
+        doi: 10.21437/Interspeech.2021-402
+        journal: "Interspeech, Brno, Czech Republic, pp. 4713-4717"
+      - title: "Diagnosis of COVID-19 using Auditory Acoustic Cues"
+        authors:
+          - R. Das
+          - M. Madhavi
+          - H. Li
+        date: "Aug-Sept 2021"
+        doi: 10.21437/Interspeech.2021-497
+        journal: "Interspeech, Brno, Czech Republic, pp. 921-925"
+      - title: "Multi-target DoA estimation with an audio-visual fusion mechanism"
+        authors:
+          - X. Qian
+          - M. Madhavi
+          - Z. Pan
+          - J. Wang
+          - H. Li
+        date: "Jun 2021"
+        doi: 10.1109/ICASSP39728.2021.9413776
+        journal: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Toronto, Canada, pp. 4280-4284"
+      - title: "Leveraging Acoustic and Linguistic Embeddings from Pretrained Speech and Language Models for Intent Classification"
+        authors:
+          - B. Sharma
+          - M. Madhavi
+          - H. Li
+        date: "Jun 2021"
+        doi: 10.1109/ICASSP46034.2021.9413388
+        journal: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Toronto, Canada, pp. 7498-7502"
+      - title: "OpenNLU: Open-Source Web-Interface NLU Toolkit for Development of Conversational Agent"
+        authors:
+          - Y. Ong
+          - M. Madhavi
+          - K. Chan
+        date: "Dec 2020"
+        doi: 10.1109/APSIPA48774.2020.9306398
+        journal: "Asia-Pacific Signal and Information Processing Association (APSIPA) Annual Summit and Conference (ASC), Auckland, New Zealand, pp. 381-385"
+      - title: "Query-by-Example Spoken Term Detection using Generative Adversarial Network"
+        authors:
+          - N. Shah
+          - Sreeraj R
+          - M. Madhavi
+          - N. Shah
+          - H. Patil
+        date: "Dec 2020"
+        doi: 10.1109/APSIPA48774.2020.9306256
+        journal: "APSIPA Annual Summit and Conference (ASC), Auckland, New Zealand, pp. 644-648"
+      - title: "Transformer-based Arabic Dialect Identification"
+        authors:
+          - W. Lin
+          - M. Madhavi
+          - R. Das
+          - H. Li
+        date: "Dec 2020"
+        doi: 10.1109/IALP51396.2020.9310504
+        journal: "International Conference on Asian Language Processing (IALP), Kuala Lumpur, Malaysia, pp. 192-196"
+      - title: "Speaker-Utterance Dual Attention for Speaker and Utterance Verification"
+        authors:
+          - T. Liu
+          - R. Das
+          - M. Madhavi
+          - S. Shen
+          - H. Li
+        date: "Oct 2020"
+        doi: 10.21437/Interspeech.2020-2656
+        journal: "Interspeech, Shanghai, China, pp. 4293-4297"
+      - title: "RSL2019: A Realistic Speech Localization Corpus"
+        authors:
+          - R. Sheelvant
+          - B. Sharma
+          - M. Madhavi
+          - R. Das
+          - S.R.M. Prasanna
+          - H. Li
+        date: "Oct 2019"
+        doi: 10.1109/O-COCOSDA46657.2019.9060842
+        journal: "Oriental COCOSDA, Cebu City, Philippines, pp. 1-6"
+      - title: "A Unified Framework for Speaker and Utterance Verification"
+        authors:
+          - T. Liu
+          - M. Madhavi
+          - R. Das
+          - H. Li
+        date: "Sept 2019"
+        doi: 10.21437/Interspeech.2019-1994
+        journal: "Interspeech, Graz, Austria, pp. 4320-4324"
+      - title: "First Leap Towards Development of Dialogue System for Autonomous Bus"
+        authors:
+          - M. Madhavi
+          - T. Zhan
+          - H. Li
+          - M. Yuan
+        date: "Apr 2019"
+        doi: 10.1007/978-981-15-9323-9_37
+        journal: "International Workshop on Spoken Dialogue Systems Technology (IWSDS), Sicily, Italy, pp. 1-6"
+      - title: "Compensating Utterance Information in Fixed Phrase Speaker Verification"
+        authors:
+          - R. Das
+          - M. C. Madhavi
+          - H. Li
+        date: "Nov 2018"
+        doi: 10.1109/APSIPA.2018.8659742
+        journal: "APSIPA Annual Summit and Conference (ASC), Honolulu, Hawaii, USA, pp. 1708-1712"
+      - title: "Replay Spoof Detection using Power Function Based Features"
+        authors:
+          - P. A. Tapkir
+          - M. R. Kamble
+          - H. A. Patil
+          - M. C. Madhavi
+        date: "Nov 2018"
+        doi: 10.1109/APSIPA.2018.8659582
+        journal: "APSIPA Annual Summit and Conference (ASC), Honolulu, Hawaii, USA, pp. 1019-1023"
+      - title: "Unsupervised Vocal Tract Length Warped Posterior Features for Non-Parallel Voice Conversion"
+        authors:
+          - N. Shah
+          - M. C. Madhavi
+          - H. Patil
+        date: "Sept 2018"
+        journal: "Interspeech, Hyderabad, India, pp. 1968-1972"
+      - title: "VTLN-Warped Gaussian posteriorgram for QbE-STD"
+        authors:
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Aug-Sept 2017"
+        doi: 10.23919/EUSIPCO.2017.8081270
+        journal: "25th European Signal Processing Conference (EUSIPCO), Kos Island, Greece, pp. 593-597"
+      - title: "Two Stage Zero-resource Approaches for QbE-STD"
+        authors:
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Dec 2017"
+        doi: 10.1109/ICAPR.2017.8593033
+        journal: "International Conference on Advances in Pattern Recognition (ICAPR), Bangalore, India"
+      - title: "Combining Evidences from Detection Sources for Query-by-Example Spoken Term Detection"
+        authors:
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Dec 2017"
+        doi: 10.1109/APSIPA.2017.8282106
+        journal: "APSIPA Annual Summit and Conference, Kuala Lumpur, Malaysia"
+      - title: "Native language identification using spectral and source-based features"
+        authors:
+          - A. Rajpal
+          - T. B. Patel
+          - H. B. Sailor
+          - M. C. Madhavi
+          - Hemant A. Patil
+          - Hiroya Fujisaki
+        date: "Sept 2016"
+        doi: 10.21437/Interspeech.2016-1100
+        journal: "Interspeech, San Francisco, USA, pp. 369-372"
+      - title: "Modification in sequential dynamic time warping for fast computation of query-by-example spoken term detection task"
+        authors:
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "June 2016"
+        doi: 10.1109/SPCOM.2016.7746657
+        journal: "International Conference on Signal Processing and Communications (SPCOM), Bangalore, India, pp. 1-6"
+      - title: "Spectral transition measure for detection of obstruents"
+        authors:
+          - M. C. Madhavi
+          - H. A. Patil
+          - B. B. Vachhani
+        date: "Aug-Sept 2015"
+        doi: 10.1109/EUSIPCO.2015.7362399
+        journal: "23rd European Signal Processing Conference (EUSIPCO), Nice, France, pp. 330-334"
+      - title: "Significance of phase-based features for person recognition using humming"
+        authors:
+          - H. B. Sailor
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Feb 2015"
+        doi: 10.1145/2708463.2709035
+        journal: "2nd International Conference on Perception and Machine Intelligence (PerMin), Kolkata, pp. 99-103"
+      - title: "A spectral transition measure based MELCEPSTRAL features for obstruent detection"
+        authors:
+          - B. Vachhani
+          - K. D. Malde
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Oct 2014"
+        doi: 10.1109/IALP.2014.6973511
+        journal: "International Conference on Asian Language Processing (IALP), Kuching, Malaysia, pp. 50-53"
+      - title: "Vocal Tract Length Normalization for Vowel Recognition in Low Resource Languages"
+        authors:
+          - S. Sharma
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Oct 2014"
+        doi: 10.1109/IALP.2014.6973516
+        journal: "International Conference on Asian Language Processing (IALP), Kuching, Malaysia, pp. 54-57"
+      - title: "Development of language resources for speech application in Gujarati and Marathi"
+        authors:
+          - M. C. Madhavi
+          - S. Sharma
+          - H. A. Patil
+        date: "Oct 2014"
+        doi: 10.1109/IALP.2014.6973517
+        journal: "International Conference on Asian Language Processing (IALP), Kuching, Malaysia, pp. 115-118"
+      - title: "Exploiting speech source information for vowel landmark detection for low resource language"
+        authors:
+          - A. Undhad
+          - H. Patil
+          - M. C. Madhavi
+        date: "Sept 2014"
+        doi: 10.1109/ISCSLP.2014.6936660
+        journal: "9th International Symposium on Chinese Spoken Language Processing (ISCSLP), Singapore, pp. 546-550"
+      - title: "Deterministic annealing EM algorithm for developing TTS System in Gujarati"
+        authors:
+          - N. Shah
+          - H. Patil
+          - M. Madhavi
+          - H. Sailor
+          - T. Patel
+        date: "Sept 2014"
+        doi: 10.1109/ISCSLP.2014.6936666
+        journal: "9th International Symposium on Chinese Spoken Language Processing (ISCSLP), Singapore, pp. 526-530"
+      - title: "Exploiting variable length Teager energy operator in melcepstral features for person recognition from humming"
+        authors:
+          - M. Madhavi
+          - H. A. Patil
+        date: "Sept 2014"
+        doi: 10.1109/ISCSLP.2014.6936654
+        journal: "9th International Symposium on Chinese Spoken Language Processing (ISCSLP), Singapore, pp. 624-628"
+      - title: "Development of vocal tract length normalized phonetic engine for Gujarati and Marathi languages"
+        authors:
+          - S. Sharma
+          - M. C. Madhavi
+          - H. A. Patil
+        date: "Sept 2014"
+        doi: 10.1109/COCOSDA.2014.7051439
+        journal: "17th Oriental COCOSDA, Phuket, Thailand"
+      - title: "Development of speech corpora in Gujarati and Marathi for phonetic transcription"
+        authors:
+          - K. D. Malde
+          - B. B. Vachhani
+          - M. C. Madhavi
+          - N. H. Chhayani
+          - H. A. Patil
+        date: "Nov 2013"
+        doi: 10.1109/COCOSDA.2013.6709865
+        journal: "International Conference Oriental COCOSDA, Gurgaon, India, pp. 1-6"
+      - title: "Phonetic transcription of Fricatives and Plosives for Gujarati and Marathi Languages"
+        authors:
+          - H. A. Patil
+          - M. C. Madhavi
+          - K. D. Malde
+          - B. B. Vachhani
+        date: "Nov 2012"
+        doi: 10.1109/IALP.2012.6473725
+        journal: "International Conference on Asian Language Processing (IALP), Hanoi, Vietnam, pp. 177-180"
+      - title: "Person Recognition Using Humming, Singing and Speech"
+        authors:
+          - H. A. Patil
+          - M. C. Madhavi
+          - N. H. Chhayani
+        date: "Nov 2012"
+        doi: 10.1109/IALP.2012.6473718
+        journal: "International Conference on Asian Language Processing (IALP), Hanoi, Vietnam, pp. 149-152"
+      - title: "Significance of magnitude and phase information via VTEO for humming based biometrics"
+        authors:
+          - H. A. Patil
+          - M. C. Madhavi
+        date: "Mar-Apr 2012"
+        doi: 10.1109/ICB.2012.6199779
+        journal: "International Conference on Biometrics (ICB), New Delhi, India, pp. 372-377"
+      - title: "Combining evidence from spectral and source-like features for person recognition from humming"
+        authors:
+          - H. A. Patil
+          - M. C. Madhavi
+          - K. K. Parhi
+        date: "Aug 27-31 2011"
+        doi: 10.21437/Interspeech.2011-132
+        journal: "Interspeech, Florence, Italy, pp. 369-372"
+    awards:
+      - label: IAPR Travel Scholarship
+        details: "International Association for Pattern Recognition Travel Scholarship for presenting paper in International Conference on Biometrics, ICB 2012, Delhi, India. Paper: Significance of Magnitude and Phase Information via VTEO for Humming Based Biometrics. (Grant reference: IAPR009)"
+      - label: GATE 2009 Qualification
+        details: "Qualified in Electronics and Communication Engineering with All India Rank 2142"
+    invited_talks:
+      - label: Doctoral Consortium Talk
+        date: "Jul 8-12 2017"
+        details: "Design of QbE-STD System: Audio Representation and Matching Perspective at Summer School on Speech Signal Processing, DA-IICT, Gandhinagar"
+      - label: "Overview of Query-by-Example Spoken Term Detection"
+        date: "Jul 19-20 2016"
+        details: "Talk at ISCA supported Summer School on Advances in Speech and Audio Processing (ASAP), DA-IICT, Gandhinagar"
+      - label: "Query-by-Example Spoken Term Detection - A template matching approach"
+        date: "Jul 4-8 2016"
+        details: "5 min Ph.D. competition at ISCA supported summer School on Speech Signal Processing (S4P), DA-IICT, Gandhinagar"
+    conferences_and_workshops:
+      - label: "International Conferences Attended"
+        details: "APSIPA-ASC 2020 (Auckland, New Zealand), IALP 2020 (Kuala Lumpur, Malaysia), INTERSPEECH 2019 (Graz, Austria), INTERSPEECH 2018 (Hyderabad, India), IALP 2014 (Kuching, Malaysia), Oriental COCOSDA 2013 (Gurgaon, India), ICB 2012 (New Delhi, India)"
+      - label: "Workshops Attended"
+        details: "IWSDS 2019 (Sicily, Italy), IWSDS 2018 (Singapore), ASAP 2016 (DA-IICT, Gandhinagar), S4P 2016 (DA-IICT, Gandhinagar), WiSSAP 2015 (DA-IICT, Gandhinagar), CEP Workshop 2014 (DA-IICT, Gandhinagar)"
+    professional_activities:
+      - label: "Organizing Committee"
+        details: "Publication chair, Web content Manager, IEEE Automatic Speech Recognition and Understanding Workshop, 14-18 Dec 2019, Singapore"
+      - label: "Program Committee"
+        details: "Program committee member and Session chair for IEEE International Conference on Asian Language Processing (IALP) 2020"
+      - label: "Conference Reviewer"
+        details: "INTERSPEECH (2018-2021), ICASSP 2021, APSIPA 2018, IALP (2019-2020), Computer Speech Language, Speech Communication (Elsevier), IEEE Access"
+      - label: "Volunteer"
+        details: "IWSDS 2018 (Singapore), S4P 2016 (DA-IICT), WiSSAP 2015 (DA-IICT), CEP Workshop 2014 (DA-IICT)"
     technologies:
-      - label: Languages
-        details: C++, Python
-      - label: Tools
-        details: Bash, Git, Docker, Latex 
-      - label: Research Interests
-        details: Audio processing, Computer Vision, Application of generative AI in computer vision
+      - label: "Research Areas"
+        details: "Speech signal processing, voice search, speaker verification, spoken language understanding, deep learning for spoken language processing, million-scale indexing"
+      - label: "Programming Languages"
+        details: "Bash, C/C++, Python, MATLAB, Git, Docker, Kaldi, TensorFlow, PyTorch"
+      - label: "Operating Systems"
+        details: "Windows and Linux"
 design:
   theme: classic
-  font: Source Sans 3
-  font_size: 10pt
-  page_size: letterpaper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in:
-    - Experience

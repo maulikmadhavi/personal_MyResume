@@ -1,0 +1,119 @@
+═════════════════════════════════════════════════════════════════
+COMPARISON: Maulik_resume.tex vs Maulik_C._Madhavi_CV.md
+═════════════════════════════════════════════════════════════════
+
+1. FORMAT & PURPOSE
+───────────────────
+   .tex: LaTeX document (print-optimized, detailed)
+   .md:  Markdown (rendered, concise, web-friendly)
+
+2. CONTACT INFORMATION
+──────────────────────
+   .tex: +65-85443713 | Website: sites.google.com | GitHub
+   .md:  +65 8544 3713 | LinkedIn | GitHub
+   
+   NOTE: .md has LinkedIn, .tex has Google Sites
+
+3. EXPERIENCE SECTION
+─────────────────────
+   .tex: 3 positions listed
+        - Video Analytics Researcher (Apr 2021 - Present)
+        - Research Fellow (Dec 2017 - Apr 2021)
+        - Project Personnel (Apr 2012 - June 2014)
+   
+   .md:  2 positions listed
+        - Senior Product Engineer/Video Analytics Researcher (Apr 2021 - present)
+        - Research Fellow (Dec 2017 - Apr 2021)
+   
+   DIFFERENCE:
+   ✗ .md omits: Project Personnel role (2012-2014)
+   ✓ .md adds: "Senior Product Engineer" title (not in .tex)
+   ✓ .md adds: Detailed job descriptions vs .tex bullet points
+
+4. EDUCATION
+────────────
+   .tex: 5 entries (includes H.S.C. and S.S.C.)
+        - PhD (2011-2017, CPI: 9.75/10)
+        - M.Tech (2009-2011, CPI: 8.26/10)
+        - B.E. (2005-2009, 69.73%)
+        - H.S.C. (2004-2005, 85.80%)
+        - S.S.C. (2002-2003, 82.14%)
+   
+   .md:  3 entries (excludes high school)
+        - PhD (Jul 2011 - Nov 2017, CPI: 9.75/10)
+        - M.Tech (Jul 2009 - Jun 2011, CPI: 8.26/10, includes thesis)
+        - B.E. (Jul 2005 - Jun 2009, 69.73%)
+   
+   DIFFERENCES:
+   ✗ .md omits: High school (H.S.C., S.S.C.)
+   ✓ .md adds: Thesis titles with links
+   ✓ .md adds: "Communication Systems specialization" for M.Tech
+
+5. SKILLS SECTION
+─────────────────
+   .tex: Comprehensive skills
+        - Research Areas: [detailed list]
+        - Programming Languages: Bash, C/C++, Python, MATLAB, Git, Docker, Kaldi, TensorFlow, PyTorch
+        - Operating Systems: Windows and Linux
+   
+   .md:  Minimal skills
+        - Languages: C++, Python
+        - Tools: Bash, Git, Docker, Latex
+        - Research Interests: Audio processing, Computer Vision, Generative AI
+   
+   DIFFERENCE: .tex is much more detailed
+
+6. PUBLICATIONS
+────────────────
+   .tex: Extensive (80+ papers)
+        - International Journals: 5
+        - Book Chapters: 5
+        - International Conferences: 60+
+   
+   .md:  Limited (5 papers only)
+        - 5 journal/publication entries
+        - All with DOI links
+   
+   DIFFERENCE: .md is a heavily condensed version
+
+7. AWARDS & ACHIEVEMENTS
+─────────────────────────
+   .tex: Awards and Achievements section
+        - IAPR Travel Scholarship (2012)
+        - GATE 2009 qualification
+   
+   .md:  Additional Experience And Awards
+        - Instructor (2003-2005)
+        - Third Prize, Senior Design Project
+   
+   DIFFERENCE: Completely different awards listed!
+
+8. ADDITIONAL CONTENT
+──────────────────────
+   .tex includes:
+        - Invited Talks/Presentations
+        - Conference and Workshop Attended
+        - Other Activities (Organizing, Review, Volunteer)
+        - Personal Information
+        - References
+   
+   .md: None of the above
+
+═════════════════════════════════════════════════════════════════
+
+SUMMARY:
+--------
+✓ .tex is the COMPREHENSIVE version (detailed academic CV)
+✓ .md is a CONDENSED version (professional summary)
+
+The .md file appears to be generated from RenderCV and is intended for
+a different audience (tech industry vs academic). It's missing:
+  - Project Personnel role
+  - High school education
+  - 95% of publications
+  - Conference activities
+  - Most awards/achievements
+
+RECOMMENDATION: Decide which audience you're targeting:
+  1. Academic/Research positions → Use .tex (more comprehensive)
+  2. Industry/Tech positions → Use .md (more concise, focused on skills)
