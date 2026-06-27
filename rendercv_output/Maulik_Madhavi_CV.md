@@ -33,6 +33,14 @@ Apr 2021 – present
 
 - Built prompt studio platform enabling users to efficiently search, summarize, and analyze video content for downstream applications, collaborating across cross-functional teams
 
+- Fine-tuned open-weight LLMs (Mistral-7B, Llama-2-7B) using LoRA-based supervised fine-tuning (SFT) on custom Alpaca-format instruction datasets curated from internal data
+
+- Fine-tuned small vision-language models (Gemma, moondream, BLIP, CLIP) for custom instruction tuning and multimodal retrieval tasks
+
+- Optimized computer-vision recognition and detection models for edge and on-prem deployment (CPU, GPU) using quantization, pruning, and distillation with ONNX Runtime, TensorRT, OpenVINO, and TFLite
+
+- Optimized high-throughput VLM serving with vLLM (PagedAttention, continuous batching), generating descriptions for 48 concurrent 10-second video chunks in ~7 seconds on a single H100 GPU
+
 
 
 ## **National University of Singapore (NUS), Singapore**, Research Fellow
@@ -592,6 +600,10 @@ H. A. Patil, M. C. Madhavi, K. K. Parhi
 **Deep Learning & ML Frameworks:** TensorFlow, PyTorch, OpenCV, scikit-learn, Hugging Face Transformers, NumPy, Pandas, Matplotlib
 
 **Large Language Models & AI Tools:** LangChain, LlamaIndex, DSPy, vLLM, RASA, n8n
+
+**LLM/VLM Fine-tuning & Serving:** LoRA/SFT fine-tuning (Mistral-7B, Llama-2-7B), vision-language model tuning (Gemma, moondream, BLIP, CLIP), high-throughput vLLM serving (PagedAttention, continuous batching, KV-cache)
+
+**Model Optimization & Edge Deployment:** Quantization (INT8/INT4), pruning, knowledge distillation, ONNX Runtime, TensorRT, OpenVINO, TFLite, model export (ONNX/TorchScript)
 
 **Web & API Frameworks:** Flask, FastAPI, Streamlit, Gradio
 

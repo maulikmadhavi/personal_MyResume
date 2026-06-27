@@ -19,19 +19,25 @@
 ((* endif *))
 
 # <<section_title>>
-## **NCS Pte Ltd, Singapore**, Lead Product Engineer
+## **NCS Pte Ltd, Singapore**, Senior AI Engineer
 
 Apr 2021 – present
 
 
 
-5 years 1 month
+5 years 3 months
 
 - Contributed to two major platforms under KAI CoCreate: KAI Create (Low-code video analytics training tool) and [KAI SnS](https://www.ncs.co/en-sg/knowledge-centre/articles/ncs-kai-video-search-and-summarisation-platform/) (Video search and summarization platform: ) through computer vision and backend optimization
 
 - Designed and implemented face indexing system supporting million-scale face search capabilities, along with person and vehicle detection models with attribute recognition
 
 - Built prompt studio platform enabling users to efficiently search, summarize, and analyze video content for downstream applications, collaborating across cross-functional teams
+
+- Fine-tuned open-weight LLMs (Mistral-7B, Llama-2-7B) using LoRA-based supervised fine-tuning (SFT) on custom Alpaca-format instruction datasets curated from internal data
+
+- Optimized high-throughput VLM serving with vLLM (PagedAttention, continuous batching), generating descriptions for 48 concurrent 10-second video chunks in ~7 seconds on a single H100 GPU
+
+- Optimized computer-vision recognition and detection models for edge and on-prem deployment using quantization, pruning, and distillation with ONNX Runtime, TensorRT, OpenVINO, and TFLite
 
 
 
@@ -243,6 +249,10 @@ B. Sharma, M. Madhavi, H. Li
 **Deep Learning & ML Frameworks:** TensorFlow, PyTorch, OpenCV, scikit-learn, Hugging Face Transformers, NumPy, Pandas, Matplotlib
 
 **Large Language Models & AI Tools:** LangChain, LlamaIndex, DSPy, vLLM, RASA, n8n
+
+**LLM/VLM Fine-tuning & Serving:** LoRA/SFT fine-tuning (Mistral-7B, Llama-2-7B), vision-language model tuning (Gemma, moondream, BLIP, CLIP), high-throughput vLLM serving (PagedAttention, continuous batching, KV-cache)
+
+**Model Optimization & Edge Deployment:** Quantization (INT8/INT4), pruning, knowledge distillation, ONNX Runtime, TensorRT, OpenVINO, TFLite, model export (ONNX/TorchScript)
 
 **Web & API Frameworks:** Flask, FastAPI, Streamlit, Gradio
 

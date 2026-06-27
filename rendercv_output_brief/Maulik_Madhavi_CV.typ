@@ -6,7 +6,7 @@
   name: "Maulik Madhavi",
   title: "Maulik Madhavi - CV",
   footer: context { [#emph[Maulik Madhavi -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 26,
+    month: 6,
+    day: 28,
   ),
 )
 
@@ -101,7 +101,7 @@
 
 #regular-entry(
   [
-    #strong[NCS Pte Ltd, Singapore], Lead Product Engineer
+    #strong[NCS Pte Ltd, Singapore], Senior AI Engineer
 
     - Contributed to two major platforms under KAI CoCreate: KAI Create (Low-code video analytics training tool) and #link("https://www.ncs.co/en-sg/knowledge-centre/articles/ncs-kai-video-search-and-summarisation-platform/")[KAI SnS] (Video search and summarization platform: ) through computer vision and backend optimization
 
@@ -109,13 +109,19 @@
 
     - Built prompt studio platform enabling users to efficiently search, summarize, and analyze video content for downstream applications, collaborating across cross-functional teams
 
+    - Fine-tuned open-weight LLMs (Mistral-7B, Llama-2-7B) using LoRA-based supervised fine-tuning (SFT) on custom Alpaca-format instruction datasets curated from internal data
+
+    - Optimized high-throughput VLM serving with vLLM (PagedAttention, continuous batching), generating descriptions for 48 concurrent 10-second video chunks in \~7 seconds on a single H100 GPU
+
+    - Optimized computer-vision recognition and detection models for edge and on-prem deployment using quantization, pruning, and distillation with ONNX Runtime, TensorRT, OpenVINO, and TFLite
+
   ],
   [
     Apr 2021 – present
 
     
 
-    5 years 1 month
+    5 years 3 months
 
   ],
 )
@@ -409,6 +415,10 @@
 #strong[Deep Learning & ML Frameworks:] TensorFlow, PyTorch, OpenCV, scikit-learn, Hugging Face Transformers, NumPy, Pandas, Matplotlib
 
 #strong[Large Language Models & AI Tools:] LangChain, LlamaIndex, DSPy, vLLM, RASA, n8n
+
+#strong[LLM\/VLM Fine-tuning & Serving:] LoRA\/SFT fine-tuning (Mistral-7B, Llama-2-7B), vision-language model tuning (Gemma, moondream, BLIP, CLIP), high-throughput vLLM serving (PagedAttention, continuous batching, KV-cache)
+
+#strong[Model Optimization & Edge Deployment:] Quantization (INT8\/INT4), pruning, knowledge distillation, ONNX Runtime, TensorRT, OpenVINO, TFLite, model export (ONNX\/TorchScript)
 
 #strong[Web & API Frameworks:] Flask, FastAPI, Streamlit, Gradio
 
