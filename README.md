@@ -1,4 +1,10 @@
 # MyResume
-This repo contains my resume
 
-Please refer to [Maulik_resume.pdf](https://github.com/maulikmadhavi/MyResume/blob/master/Maulik_resume.pdf)
+The resume is in Markdown format
+
+# Compile
+```
+rendercv render Maulik_C._Madhavi_CV.yaml
+```
+
+# ATS complia

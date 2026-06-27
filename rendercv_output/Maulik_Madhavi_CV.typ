@@ -6,7 +6,7 @@
   name: "Maulik Madhavi",
   title: "Maulik Madhavi - CV",
   footer: context { [#emph[Maulik Madhavi -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 21,
+    month: 6,
+    day: 27,
   ),
 )
 
@@ -101,7 +101,7 @@
 
 #regular-entry(
   [
-    #strong[NCS Pte Ltd, Singapore], Lead Product Engineer
+    #strong[NCS Pte Ltd, Singapore], Senior AI Engineer
 
     - Contributed to two major platforms under KAI CoCreate: KAI Create (Low-code video analytics training tool) and #link("https://www.ncs.co/en-sg/knowledge-centre/articles/ncs-kai-video-search-and-summarisation-platform/")[KAI SnS] (Video search and summarization platform: ) through computer vision and backend optimization
 
@@ -115,7 +115,7 @@
 
     
 
-    5 years
+    5 years 3 months
 
   ],
 )
@@ -924,8 +924,16 @@
 
 == Technologies
 
-#strong[Research Areas:] Speech signal processing, voice search, speaker verification, spoken language understanding, deep learning for spoken language processing, million-scale indexing
+#strong[Programming Languages:] Bash, C\/C++, Python, JavaScript, MATLAB
 
-#strong[Programming Languages:] Bash, C\/C++, Python, MATLAB, Git, Docker, Kaldi, TensorFlow, PyTorch
+#strong[Deep Learning & ML Frameworks:] TensorFlow, PyTorch, OpenCV, scikit-learn, Hugging Face Transformers, NumPy, Pandas, Matplotlib
+
+#strong[Large Language Models & AI Tools:] LangChain, LlamaIndex, DSPy, vLLM, RASA, n8n
+
+#strong[Web & API Frameworks:] Flask, FastAPI, Streamlit, Gradio
+
+#strong[Audio\/Speech Tools & Systems:] Kaldi, wakeup-word detection, voice activity detection
+
+#strong[DevOps & Deployment:] Git, Docker, Kubernetes
 
 #strong[Operating Systems:] Windows and Linux

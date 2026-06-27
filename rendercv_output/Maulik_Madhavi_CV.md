@@ -19,13 +19,13 @@
 ((* endif *))
 
 # <<section_title>>
-## **NCS Pte Ltd, Singapore**, Lead Product Engineer
+## **NCS Pte Ltd, Singapore**, Senior AI Engineer
 
 Apr 2021 – present
 
 
 
-5 years
+5 years 3 months
 
 - Contributed to two major platforms under KAI CoCreate: KAI Create (Low-code video analytics training tool) and [KAI SnS](https://www.ncs.co/en-sg/knowledge-centre/articles/ncs-kai-video-search-and-summarisation-platform/) (Video search and summarization platform: ) through computer vision and backend optimization
 
@@ -587,8 +587,16 @@ H. A. Patil, M. C. Madhavi, K. K. Parhi
 **Volunteer:** IWSDS 2018 (Singapore), S4P 2016 (DA-IICT), WiSSAP 2015 (DA-IICT), CEP Workshop 2014 (DA-IICT)
 
 # <<section_title>>
-**Research Areas:** Speech signal processing, voice search, speaker verification, spoken language understanding, deep learning for spoken language processing, million-scale indexing
+**Programming Languages:** Bash, C/C++, Python, JavaScript, MATLAB
 
-**Programming Languages:** Bash, C/C++, Python, MATLAB, Git, Docker, Kaldi, TensorFlow, PyTorch
+**Deep Learning & ML Frameworks:** TensorFlow, PyTorch, OpenCV, scikit-learn, Hugging Face Transformers, NumPy, Pandas, Matplotlib
+
+**Large Language Models & AI Tools:** LangChain, LlamaIndex, DSPy, vLLM, RASA, n8n
+
+**Web & API Frameworks:** Flask, FastAPI, Streamlit, Gradio
+
+**Audio/Speech Tools & Systems:** Kaldi, wakeup-word detection, voice activity detection
+
+**DevOps & Deployment:** Git, Docker, Kubernetes
 
 **Operating Systems:** Windows and Linux
