@@ -932,7 +932,7 @@
 
 #strong[Volunteer:] IWSDS 2018 (Singapore), S4P 2016 (DA-IICT), WiSSAP 2015 (DA-IICT), CEP Workshop 2014 (DA-IICT)
 
-== Technologies
+== Skills
 
 #strong[Research Areas:] Speech signal processing, voice search, speaker verification, spoken language understanding, deep learning for spoken language processing, million-scale indexing
 

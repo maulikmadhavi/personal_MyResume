@@ -66,8 +66,3 @@ jobs:
         run: pixi run python ats_checker.py Maulik_Madhavi_CV_Brief.yaml ci-output/brief/Maulik_Madhavi_CV.pdf
         env:
           PYTHONIOENCODING: utf-8
-
-      - name: Check ATS compatibility for brief CV
-        run: pixi run python -m rendercv render Maulik_Madhavi_CV_Brief.yaml
-        env:
-          PYTHONIOENCODING: utf-8
