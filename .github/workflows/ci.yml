@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "**.yaml"
+      - "**.yml"
+      - "**.j2.md"
+      - "pixi.toml"
+      - "pixi.lock"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "**.yaml"
+      - "**.yml"
+      - "**.j2.md"
+      - "pixi.toml"
+      - "pixi.lock"
+      - ".github/workflows/ci.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate CV sources
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.8.1
+        with:
+          pixi-version: v0.41.3
+          cache: true
+
+      - name: Install dependencies
+        run: pixi install --locked
+
+      - name: Render full CV
+        run: pixi run python -m rendercv render Maulik_C._Madhavi_CV.yaml -o ci-output/full
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Render brief CV
+        run: pixi run python -m rendercv render Maulik_Madhavi_CV_Brief.yaml -o ci-output/brief
+        env:
+          PYTHONIOENCODING: utf-8
