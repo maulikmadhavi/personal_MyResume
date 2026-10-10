@@ -6,6 +6,11 @@ platforms = ["win-64"]
 version = "0.1.0"
 
 [tasks]
+build = { cmd = "python -m rendercv render Maulik_C._Madhavi_CV.yaml", env = { PYTHONIOENCODING = "utf-8" } }
+build_brief = { cmd = "python -m rendercv render Maulik_Madhavi_CV_Brief.yaml -o rendercv_output_brief", env = { PYTHONIOENCODING = "utf-8" } }
+ats_check = { cmd = "python ats_checker.py Maulik_C._Madhavi_CV.yaml rendercv_output/Maulik_Madhavi_CV.pdf", env = { PYTHONIOENCODING = "utf-8" } }
+ats_check_brief = { cmd = "python ats_checker.py Maulik_Madhavi_CV_Brief.yaml rendercv_output_brief/Maulik_Madhavi_CV.pdf", env = { PYTHONIOENCODING = "utf-8" } }
+all = { depends-on = ["build", "build_brief", "ats_check", "ats_check_brief"] }
 
 [dependencies]
 python = "==3.12"

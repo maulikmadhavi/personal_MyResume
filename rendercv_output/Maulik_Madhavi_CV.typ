@@ -92,6 +92,7 @@
   [Singapore],
   [#link("mailto:maulikmadhavi@gmail.com", icon: false, if-underline: false, if-color: false)[maulikmadhavi\@gmail.com]],
   [#link("tel:+65-8544-3713", icon: false, if-underline: false, if-color: false)[+65 8544 3713]],
+  [#link("https://maulikmadhavi.github.io/", icon: false, if-underline: false, if-color: false)[maulikmadhavi.github.io]],
   [#link("https://linkedin.com/in/https://www.linkedin.com/in/maulik-madhavi-25743b82/", icon: false, if-underline: false, if-color: false)[https:\/\/www.linkedin.com\/in\/maulik-madhavi-25743b82\/]],
   [#link("https://github.com/https://github.com/maulikmadhavi", icon: false, if-underline: false, if-color: false)[https:\/\/github.com\/maulikmadhavi]],
 )
