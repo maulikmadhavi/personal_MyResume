@@ -174,7 +174,7 @@ cv:
     professional_activities:
       - label: "Conference Reviewer"
         details: "INTERSPEECH (2018-2026), ICASSP (2021, 2023-2026), APSIPA 2018, IALP (2019-2023, 2025-26), ISCSLP 2024, Computer Speech and Language, Speech Communication (Elsevier), IEEE Access"
-    technologies:
+    skills:
       - label: "Research Areas"
         details: "Speech signal processing, voice search, speaker verification, spoken language understanding, deep learning for spoken language processing, million-scale indexing"
       - label: "Programming Languages"
