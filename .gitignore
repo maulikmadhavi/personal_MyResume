@@ -6,6 +6,8 @@ Maulik_resume.fls
 Maulik_resume.fdb_latexmk
 Maulik_resume.synctex.gz
 Maulik_resume.out
+rendercv_output/
+rendercv_output_brief/
 
 # Python cache
 __pycache__/

@@ -197,3 +197,10 @@ cv:
         details: "Windows and Linux"
 design:
   theme: classic
+  # ATS: keep words whole, keep header text-only and the country code visible
+  typography:
+    alignment: justified-with-no-hyphenation
+  header:
+    connections:
+      phone_number_format: international
+      show_icons: false

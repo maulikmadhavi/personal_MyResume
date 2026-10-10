@@ -10,6 +10,7 @@ on:
       - "**.j2.md"
       - "pixi.toml"
       - "pixi.lock"
+      - "ats_checker.py"
       - ".github/workflows/ci.yml"
   pull_request:
     paths:
@@ -18,6 +19,7 @@ on:
       - "**.j2.md"
       - "pixi.toml"
       - "pixi.lock"
+      - "ats_checker.py"
       - ".github/workflows/ci.yml"
 
 permissions:
@@ -52,5 +54,20 @@ jobs:
 
       - name: Render brief CV
         run: pixi run python -m rendercv render Maulik_Madhavi_CV_Brief.yaml -o ci-output/brief
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Check ATS compatibility (full CV)
+        run: pixi run python ats_checker.py Maulik_C._Madhavi_CV.yaml ci-output/full/Maulik_Madhavi_CV.pdf
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Check ATS compatibility (brief CV)
+        run: pixi run python ats_checker.py Maulik_Madhavi_CV_Brief.yaml ci-output/brief/Maulik_Madhavi_CV.pdf
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Check ATS compatibility for brief CV
+        run: pixi run python -m rendercv render Maulik_Madhavi_CV_Brief.yaml
         env:
           PYTHONIOENCODING: utf-8
